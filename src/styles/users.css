@@ -1,0 +1,29 @@
+.users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
+
+.user-email{
+    background-color: #000;;
+    color: #fff;
+    border-radius: 10px;;
+    padding: 10px
+}
+
+.user-name {
+    font-weight: bold;
+    overflow-x: hidden;
+}
