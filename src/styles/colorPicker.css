@@ -1,0 +1,34 @@
+.color-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 400px;
+    
+}
+
+.color-block{
+    width: 100%;
+    height: 200px;
+
+ 
+
+}
+
+.color-list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+.error-message{
+    color: red
+}
+
+.correct-message{
+    color: green
+}
