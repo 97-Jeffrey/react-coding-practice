@@ -52,7 +52,7 @@ td:last-child {
 }
 
 .color-picker {
-    margin-top: 30px;
+    top: 40px;
     width: 250px;
     height: 250px;
     border: 1px solid gray;
@@ -66,7 +66,7 @@ td:last-child {
     gap:8px;
     padding:10px;
     overflow-y: scroll;
-    z-index: 2;
+    /* z-index: 2; */
     position: absolute;
 }
 
