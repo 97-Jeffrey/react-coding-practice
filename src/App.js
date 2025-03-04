@@ -9,6 +9,7 @@ import BookMark from './components/bookmark';
 import UsersFetch from './components/userFetch';
 
 import colors from './data/color';
+import FormValidation from './components/formValidation';
 
 
  {/* <Countries data={{ china:'Beijing', Germany: 'Berlin'}} /> */}
@@ -17,7 +18,7 @@ import colors from './data/color';
 function App() {
    return (
       <div className='App'>
-           <UsersFetch />
+           <FormValidation />
       </div>
    )
  
