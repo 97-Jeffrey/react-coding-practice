@@ -7,6 +7,7 @@ import Color from './components/color';
 import Todo from './components/todo';
 
 import colors from './data/color';
+import BookMark from './components/bookmark';
 
  {/* <Countries data={{ china:'Beijing', Germany: 'Berlin'}} /> */}
 //  /  <Color data={colors}/>
@@ -14,7 +15,7 @@ import colors from './data/color';
 function App() {
    return (
       <div className='App'>
-           <Todo />
+           <BookMark />
       </div>
    )
  
