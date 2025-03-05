@@ -7,9 +7,12 @@ import Color from './components/color';
 import Todo from './components/todo';
 import BookMark from './components/bookmark';
 import UsersFetch from './components/userFetch';
+import FormValidation from './components/formValidation';
 
 import colors from './data/color';
-import FormValidation from './components/formValidation';
+import questions from './data/questions';
+import Question from './components/question';
+
 
 
  {/* <Countries data={{ china:'Beijing', Germany: 'Berlin'}} /> */}
@@ -18,7 +21,8 @@ import FormValidation from './components/formValidation';
 function App() {
    return (
       <div className='App'>
-           <FormValidation />
+         <Question questions={questions}/>
+           
       </div>
    )
  
