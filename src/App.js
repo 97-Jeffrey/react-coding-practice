@@ -1,17 +1,19 @@
 import './App.css';
-import InputTag from './components/InputTag';
-import Countries from './components/Countries';
-import Users from './components/users/users';
-import ColorPicker from './components/ColorPicker';
-import Color from './components/color';
-import Todo from './components/todo';
-import BookMark from './components/bookmark';
-import UsersFetch from './components/userFetch';
-import FormValidation from './components/formValidation';
+// import InputTag from './components/InputTag';
+// import Countries from './components/Countries';
+// import Users from './components/users/users';
+// import ColorPicker from './components/ColorPicker';
+// import Color from './components/color';
+// import Todo from './components/todo';
+// import BookMark from './components/bookmark';
+// import UsersFetch from './components/userFetch';
+// import FormValidation from './components/formValidation';
+// import Question from './components/question';
+import ShoppingCart from './components/shoppingCart';
 
-import colors from './data/color';
-import questions from './data/questions';
-import Question from './components/question';
+// import colors from './data/color';
+// import questions from './data/questions';
+
 
 
 
@@ -21,7 +23,8 @@ import Question from './components/question';
 function App() {
    return (
       <div className='App'>
-         <Question questions={questions}/>
+          <ShoppingCart/>
+     
            
       </div>
    )
