@@ -57,7 +57,7 @@ const ShoppingCart = () =>{
            <div className='container'>
                 <div className='cart'>
                     <button className='cart-button' onClick={handleCartToggle}>
-                        <span>My Cart </span> 
+                        <span></span>My Cart  
                         { totalQuanlity>0 &&<span className='quantity-indicator'>{totalQuanlity}</span>}
                     </button>
                     { toggleCartOpen 
@@ -93,7 +93,6 @@ const ShoppingCart = () =>{
                         <button 
                             className='add-to-cart-button'
                             onClick={()=> handleAddToCart(product)}
-                            aria-label={`Add ${product.name} to cart`}
                         >
                             Add to Cart
                         </button>
