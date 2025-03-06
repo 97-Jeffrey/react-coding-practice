@@ -10,6 +10,7 @@ import './App.css';
 // import FormValidation from './components/formValidation';
 // import Question from './components/question';
 import ShoppingCart from './components/shoppingCart';
+import Task from './components/task';
 
 // import colors from './data/color';
 // import questions from './data/questions';
@@ -23,7 +24,7 @@ import ShoppingCart from './components/shoppingCart';
 function App() {
    return (
       <div className='App'>
-          <ShoppingCart/>
+          <Task />
      
            
       </div>
