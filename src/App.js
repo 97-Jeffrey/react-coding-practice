@@ -1,4 +1,5 @@
 import './App.css';
+import Expense from './components/expense';
 // import InputTag from './components/InputTag';
 // import Countries from './components/Countries';
 // import Users from './components/users/users';
@@ -9,8 +10,8 @@ import './App.css';
 // import UsersFetch from './components/userFetch';
 // import FormValidation from './components/formValidation';
 // import Question from './components/question';
-import ShoppingCart from './components/shoppingCart';
-import Task from './components/task';
+// import ShoppingCart from './components/shoppingCart';
+// import Task from './components/task';
 
 // import colors from './data/color';
 // import questions from './data/questions';
@@ -24,7 +25,7 @@ import Task from './components/task';
 function App() {
    return (
       <div className='App'>
-          <Task />
+          <Expense />
      
            
       </div>
