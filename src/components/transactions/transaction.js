@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react"
-import { setTransactionMemo, setTransactionCategory } from "../api/TransactionAPI";
-import '../styles/transactions.css'
+import { setTransactionMemo, setTransactionCategory } from "../../api/TransactionAPI";
+import '../../styles/transactions.css'
 
 const Transaction  =({ transaction, categories, handleDataFetch }) =>{
 

@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
-import { getTransactions, getCategories } from '../api/TransactionAPI';
-import '../styles/transactions.css'
+import { getTransactions, getCategories } from '../../api/TransactionAPI'
+import '../../styles/transactions.css'
 
 import Transaction from './transaction';
 
