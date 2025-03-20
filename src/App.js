@@ -13,7 +13,8 @@ import './App.css';
 // import Question from './components/question';
 // import ShoppingCart from './components/shoppingCart';
 // import Task from './components/task';
-import Transactions from './components/transactions/transactions';
+// import Transactions from './components/transactions/transactions';
+import Posts from './components/post';
 
 // import colors from './data/color';
 // import questions from './data/questions';
@@ -25,7 +26,8 @@ import Transactions from './components/transactions/transactions';
 function App() {
    return (
       <div className='App'>
-         <Transactions />
+           <Posts />
+         
      
       </div>
    )
